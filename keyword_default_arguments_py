@@ -1,0 +1,16 @@
+class Demo:
+    def disp(self,a=11,b=22,c=33):
+        print(a)
+        print(b)
+        print(c)
+d1=Demo()
+x=10
+y=20
+z=30
+d1.disp()
+d1.disp(x,y,z)
+d1.disp(x)
+d1.disp(z)
+d1.disp(y,z)
+d1.disp(c=z)
+d1.disp(a=y,b=z,c=x)
