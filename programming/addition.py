@@ -1,0 +1,5 @@
+a=int(input("enter the val:"))
+b=int(input("enter the val:"))
+print(a+b)
+print("the sum of two num is:",a+b)
+print(f"the sum of {a} and {b} is {a+b}")
