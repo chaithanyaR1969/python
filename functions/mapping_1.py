@@ -8,3 +8,6 @@ print(l)
 
 def add(num):
     return num+10
+
+res=list(map(add,l))
+print(res)
